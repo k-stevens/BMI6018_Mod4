@@ -139,10 +139,10 @@ print(three_a(influenza_genome))
 def three_b(genome):
     y = 25
     three_b_len = y*20 #print 20 items, spaced 25 increments apart. You can dictate what y is, but it can be 25 at maximum based on the length of influenza_genome
-    list_three = []
+    list_three_b = []
     for i in range(0,three_b_len,y):
-        list_three.append(genome[i])
-    return list_three
+        list_three_b.append(genome[i])
+    return list_three_b
 
         
 print(three_b(influenza_genome))
